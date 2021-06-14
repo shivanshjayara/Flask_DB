@@ -1,0 +1,261 @@
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 17:55:32] "[35m[1mPOST /create HTTP/1.1[0m" 500 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\app.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Checking for method type
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Setting database type variable for entering the type of database which you want to proceed with
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "class mysql_db_class"
+2021-06-13, root, INFO, Calling "create database function" which will create a database: flask1_database
+2021-06-13, root, INFO, Database and table both has been created. For confirmation please check in your workbench
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 17:59:43] "[37mPOST /create HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Checking for method type
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Setting database type variable for entering the type of database which you want to proceed with
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "class mysql_db_class"
+2021-06-13, root, INFO, Calling "create database function" which will create a database: flask1_database
+2021-06-13, root, INFO, Database and table both has been created. For confirmation please check in your workbench
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:06:40] "[37mPOST /create HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Checking for method type
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Setting database type variable for entering the type of database which you want to proceed with
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, User has mention MongoDB database
+2021-06-13, root, INFO, Creating an object of "mongo_db_class"
+2021-06-13, root, INFO, Calling "create function" which will create database: flask1_database and table: customer_details
+2021-06-13, root, INFO, Finally database and table both are created now
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:06:47] "[37mPOST /create HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:06:59] "[33mPOST /insert HTTP/1.1[0m" 404 -
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:07:43] "[35m[1mPOST /insert_single HTTP/1.1[0m" 500 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\app.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MongoDB database
+2021-06-13, root, INFO, Creating an object of "mongo_db_class"
+2021-06-13, root, INFO, Calling "insert_single_document function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally single record is inserted
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:12:03] "[37mPOST /insert_single HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Checking for method type
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Setting database type variable for entering the type of database which you want to proceed with
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "class mysql_db_class"
+2021-06-13, root, INFO, Calling "create database function" which will create a database: flask1_database
+2021-06-13, root, INFO, Database and table both has been created. For confirmation please check in your workbench
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:15:48] "[37mPOST /create HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Calling insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "mysql_db_class"
+2021-06-13, root, INFO, Calling "insert single record function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally single record is inserted
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:35:34] "[37mPOST /insert_single HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Calling update function for updating table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "mysql_db_class"
+2021-06-13, root, INFO, Calling "update table function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally table is updated
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:37:23] "[37mPOST /update_table HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Calling update function for updating table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "update_document function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally document is updated
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:39:09] "[37mPOST /update_table HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Calling multiple insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "insert_many_document function" which will insert a single record in table: customer_details
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:40:33] "[35m[1mPOST /multiple_insert HTTP/1.1[0m" 500 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\csv_2_dict.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling multiple insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "insert_many_document function" which will insert a single record in table: customer_details
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:42:21] "[35m[1mPOST /multiple_insert HTTP/1.1[0m" 500 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\csv_2_dict.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling multiple insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "insert_many_document function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally bulk records are inserted in document
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:46:09] "[37mPOST /multiple_insert HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\mysql_db.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling multiple insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "mysql_db_class"
+2021-06-13, root, INFO, Calling "Bulk_insert function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally table is updated
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:52:29] "[37mPOST /multiple_insert HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\mysql_db.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling multiple insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "mysql_db_class"
+2021-06-13, root, INFO, Calling "Bulk_insert function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally table is updated
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:54:44] "[37mPOST /multiple_insert HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling multiple insertion function just for inserting a single record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "mysql_db_class"
+2021-06-13, root, INFO, Calling "Bulk_insert function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally table is updated
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:55:17] "[37mPOST /multiple_insert HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Calling delete function for deleting record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention MySql database
+2021-06-13, root, INFO, Creating an object of "mysql_db_class"
+2021-06-13, root, INFO, Calling "delete_row function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally record is deleted
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:57:32] "[37mPOST /delete_data HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Calling delete function for deleting record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:58:43] "[35m[1mPOST /delete_data HTTP/1.1[0m" 500 -
+2021-06-13, root, INFO, Calling delete function for deleting record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "insert_many_document function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally document is deleted
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 18:59:30] "[37mPOST /delete_data HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling delete function for deleting record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "insert_many_document function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally document is deleted
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 19:01:04] "[37mPOST /delete_data HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\mongo_db.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, root, INFO, Calling delete function for deleting record into table customer_details
+2021-06-13, root, INFO, Checking for Method whether it is POST or GET
+2021-06-13, root, INFO, Method was found "POST"
+2021-06-13, root, INFO, Checking which type a user has entered: Mysql or Mongodb Or Cassandra
+2021-06-13, root, INFO, Declaring a variable which will receive a database type from the user
+2021-06-13, root, INFO, User has mention Mongodb database
+2021-06-13, root, INFO, Creating an object of "mongodb_db_class"
+2021-06-13, root, INFO, Calling "insert_many_document function" which will insert a single record in table: customer_details
+2021-06-13, root, INFO, Finally document is deleted
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 19:04:08] "[37mPOST /delete_data HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Downloading of a file will be done
+2021-06-13, root, INFO, File is downloading from mongodb database table into some csv file
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 19:05:11] "[37mPOST /download_data HTTP/1.1[0m" 200 -
+2021-06-13, root, INFO, Downloading of a file will be done
+2021-06-13, root, INFO, File is downloading from mysql database table into some csv file
+2021-06-13, werkzeug, INFO, 127.0.0.1 - - [13/Jun/2021 19:06:48] "[37mPOST /download_data HTTP/1.1[0m" 200 -
+2021-06-13, werkzeug, INFO,  * Detected change in 'C:\\Users\\Shivansh Jayara\\iNeuron\\FSDS Course\\Task & Challenge\\package_flask\\app.py', reloading
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, INFO,  * Restarting with stat
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13, werkzeug, WARNING,  * Debugger is active!
+2021-06-13, werkzeug, INFO,  * Debugger PIN: 583-708-636
+2021-06-13, werkzeug, INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
